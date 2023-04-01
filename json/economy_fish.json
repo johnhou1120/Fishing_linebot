@@ -1,0 +1,44 @@
+{
+  "type": "bubble",
+  "header": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "text",
+        "text": "經濟性魚類",
+        "weight": "bold",
+        "size": "xl",
+        "color": "#4D4D4D",
+        "align": "center",
+        "contents": []
+      }
+    ]
+  },
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/Xk0YEvX.jpg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "label": "Action",
+      "uri": "https://fishdb.sinica.edu.tw/chi/fishlist2.php?R1=economic&B1=查詢&T3=&T3_new_value=true"
+    }
+  },
+  "footer": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "造訪 台灣魚類資料庫",
+          "uri": "https://fishdb.sinica.edu.tw/chi/fishlist2.php?R1=economic&B1=查詢&T3=&T3_new_value=true"
+        }
+      }
+    ]
+  }
+}

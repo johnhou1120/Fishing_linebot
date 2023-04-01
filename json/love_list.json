@@ -1,0 +1,79 @@
+{
+  "type": "bubble",
+  "size": "kilo",
+  "hero": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "我的最愛清單",
+        "color": "#4493A3",
+        "margin": "md",
+        "size": "xxl",
+        "weight": "bold",
+        "wrap": true,
+        "adjustMode": "shrink-to-fit",
+        "align": "center"
+      }
+    ]
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "關注項目",
+            "weight": "bold",
+            "size": "xl",
+            "wrap": true,
+            "adjustMode": "shrink-to-fit",
+            "align": "center",
+            "gravity": "center",
+            "offsetStart": "-8px",
+            "color": "#E88400"
+          },
+          {
+            "type": "text",
+            "text": "地點名稱",
+            "weight": "bold",
+            "size": "xl",
+            "wrap": true,
+            "adjustMode": "shrink-to-fit",
+            "gravity": "center",
+            "offsetStart": "-15px",
+            "color": "#E88400"
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "sm",
+        "color": "#007965"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "主要港口\n主要港口\n主要港口\n主要港口\n主要港口",
+            "size": "lg",
+            "wrap": true,
+            "adjustMode": "shrink-to-fit",
+            "gravity": "center",
+            "offsetStart": "15px",
+            "color": "#4D4D4D"
+          }
+        ],
+        "alignItems": "center"
+      }
+    ],
+    "paddingAll": "4px"
+  }
+}

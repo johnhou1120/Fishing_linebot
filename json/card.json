@@ -1,0 +1,191 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/cvsz2Ac.jpg",
+        "gravity": "bottom",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "action": {
+          "type": "message",
+          "label": "Action",
+          "text": "魚類百科"
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "魚類百科",
+                "size": "xxl",
+                "color": "#4D4D4D",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "結合 臺灣魚類資料庫 ",
+                "color": "#4D4D4D",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "資料齊全 高達3288種台灣魚種",
+                "color": "#4D4D4D",
+                "contents": []
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "查看更多",
+              "text": "魚類百科"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/9iLPuF4.jpg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "action": {
+          "type": "message",
+          "label": "Action",
+          "text": "釣魚知識"
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "知識+",
+                "size": "xxl",
+                "color": "#4D4D4D",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "經驗老手分享最新文章",
+                "color": "#4D4D4D",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "立即了解政府最新公告",
+                "color": "#4D4D4D",
+                "contents": []
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "查看更多",
+              "text": "知識+"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/K9Mohwx.png",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "action": {
+          "type": "uri",
+          "label": "Action",
+          "uri": "https://www.youtube.com/results?search_query=%E9%87%A3%E5%85%B7%E9%96%8B%E7%AE%B1&sp=EgIIBQ%253D%253D"
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "釣具開箱",
+                "size": "xxl",
+                "color": "#4D4D4D",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "新手入門釣具知識",
+                "color": "#4D4D4D",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "網紅購入釣具經驗分享",
+                "color": "#4D4D4D",
+                "contents": []
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "查看更多",
+              "uri": "https://www.youtube.com/results?search_query=%E9%87%A3%E5%85%B7%E9%96%8B%E7%AE%B1&sp=EgIIBQ%253D%253D"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "type": "bubble",
+  "size": "kilo",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "{高雄市} 即時天氣",
+        "weight": "bold",
+        "color": "#4493A3",
+        "size": "xl",
+        "wrap": true,
+        "adjustMode": "shrink-to-fit"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "資料時間：",
+            "size": "17px",
+            "flex": 0,
+            "color": "#000000"
+          },
+          {
+            "type": "text",
+            "text": "08/27(五)14:00",
+            "size": "17px",
+            "color": "#000000",
+            "offsetTop": "1px"
+          }
+        ],
+        "margin": "xs"
+      },
+      {
+        "type": "separator",
+        "margin": "md",
+        "color": "#007965"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "md",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "現在溫度：",
+                "size": "md",
+                "color": "#4D4D4D",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "33 °C",
+                "size": "md",
+                "color": "#4D4D4D",
+                "wrap": true
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "體感溫度：",
+                "size": "md",
+                "color": "#4D4D4D",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "36 °C",
+                "size": "md",
+                "color": "#4D4D4D"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "相對溼度：",
+                "size": "md",
+                "color": "#4D4D4D",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "62 %",
+                "size": "md",
+                "color": "#4D4D4D"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "時雨量：",
+                "size": "md",
+                "color": "#4D4D4D",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "0.0 mm",
+                "size": "md",
+                "color": "#4D4D4D",
+                "offsetStart": "15px"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "日出時間：",
+                "size": "md",
+                "color": "#4D4D4D",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "05:40",
+                "size": "md",
+                "color": "#4D4D4D"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "日落時間：",
+                "size": "md",
+                "color": "#4D4D4D",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "18:21",
+                "size": "md",
+                "color": "#4D4D4D"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "潮汐預報",
+                "size": "lg",
+                "color": "#0000E3",
+                "weight": "bold",
+                "align": "start",
+                "decoration": "underline",
+                "action": {
+                  "type": "postback",
+                  "label": "action",
+                  "data": "tai=pointName&mat_tidal&uid",
+                  "displayText": "pointName潮汐預報查詢中"
+                },
+                "offsetStart": "15px"
+              },
+              {
+                "type": "text",
+                "text": "查看地圖",
+                "size": "lg",
+                "color": "#0000E3",
+                "weight": "bold",
+                "align": "end",
+                "decoration": "underline",
+                "offsetEnd": "15px",
+                "action": {
+                  "type": "postback",
+                  "label": "action",
+                  "data": "loc=title&add&latitude&longitude",
+                  "displayText": "查看地圖"
+                }
+              }
+            ]
+          },
+          {
+            "type": "separator",
+            "margin": "md",
+            "color": "#007965"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "postback",
+          "label": "我要關注",
+          "data": "我要關注主要港口即時天氣",
+          "displayText": "為您關注天氣執行中，請稍候..."
+        },
+        "color": "#4493A3",
+        "style": "primary",
+        "adjustMode": "shrink-to-fit"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "postback",
+          "label": "我要刪除",
+          "data": "我要刪除主要港口即時天氣",
+          "displayText": "正在為您刪除關注的天氣，請稍候..."
+        },
+        "color": "#4D4D4D",
+        "style": "primary",
+        "adjustMode": "shrink-to-fit",
+        "margin": "md"
+      }
+    ],
+    "offsetTop": "-10px"
+  }
+}

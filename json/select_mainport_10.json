@@ -1,0 +1,171 @@
+{
+  "type": "bubble",
+  "size": "kilo",
+  "hero": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "全台主要港口選單",
+        "color": "#4493A3",
+        "margin": "md",
+        "size": "xl",
+        "weight": "bold",
+        "wrap": true,
+        "adjustMode": "shrink-to-fit",
+        "offsetStart": "25px"
+      }
+    ]
+  },
+  "body": {
+    "type": "box",
+    "layout": "horizontal",
+    "spacing": "md",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "臺北港",
+              "text": "我要查詢臺北港的天氣現況"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "花蓮港",
+              "text": "我要查詢花蓮港的天氣現況"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "高雄港",
+              "text": "我要查詢高雄港的天氣現況"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "安平港",
+              "text": "我要查詢安平港的天氣現況"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "澎湖港(馬公)",
+              "text": "我要查詢澎湖港(馬公)的天氣現況"
+            }
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "基隆港",
+              "text": "我要查詢基隆港的天氣現況"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "蘇澳港",
+              "text": "我要查詢蘇澳港的天氣現況"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "臺中港",
+              "text": "我要查詢臺中港的天氣現況"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "布袋港",
+              "text": "我要查詢布袋港的天氣現況"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "澎湖港(龍門)",
+              "text": "我要查詢澎湖港(龍門)的天氣現況"
+            }
+          }
+        ]
+      }
+    ],
+    "paddingAll": "8px"
+  }
+}

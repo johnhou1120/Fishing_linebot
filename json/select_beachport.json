@@ -1,0 +1,489 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "size": "mega",
+      "hero": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "北部 海水浴場",
+            "color": "#4493A3",
+            "size": "xxl",
+            "weight": "bold",
+            "position": "relative",
+            "align": "center",
+            "gravity": "center",
+            "wrap": true,
+            "adjustMode": "shrink-to-fit",
+            "margin": "sm"
+          },
+          {
+            "type": "text",
+            "text": "臺北市、新北市、基隆市、新竹市、桃園市、新竹縣及宜蘭縣。",
+            "wrap": true,
+            "weight": "bold",
+            "size": "lg",
+            "adjustMode": "shrink-to-fit",
+            "margin": "sm",
+            "offsetStart": "10px"
+          }
+        ]
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "宜蘭縣頭城海水浴場",
+            "wrap": true,
+            "weight": "bold",
+            "size": "md",
+            "decoration": "underline",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "PID=A001",
+              "displayText": "宜蘭縣頭城海水浴場"
+            },
+            "offsetStart": "-5px",
+            "color": "#0000E3"
+          },
+          {
+            "type": "text",
+            "text": "基隆市和平島海水浴場",
+            "wrap": true,
+            "weight": "bold",
+            "size": "md",
+            "color": "#0000E3",
+            "decoration": "underline",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "PID=A010",
+              "displayText": "基隆市和平島海水浴場"
+            },
+            "offsetStart": "-5px"
+          },
+          {
+            "type": "text",
+            "text": "新北市新金山海水浴場",
+            "wrap": true,
+            "weight": "bold",
+            "size": "md",
+            "color": "#0000E3",
+            "decoration": "underline",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "PID=A012",
+              "displayText": "新北市新金山海水浴場"
+            },
+            "offsetStart": "-5px"
+          },
+          {
+            "type": "text",
+            "text": "新北市鹽寮海水浴場",
+            "wrap": true,
+            "weight": "bold",
+            "size": "md",
+            "color": "#0000E3",
+            "decoration": "underline",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "PID=A013",
+              "displayText": "新北市鹽寮海水浴場"
+            },
+            "offsetStart": "-5px"
+          },
+          {
+            "type": "text",
+            "text": "新北市龍洞南口海水浴場",
+            "wrap": true,
+            "weight": "bold",
+            "size": "md",
+            "color": "#0000E3",
+            "decoration": "underline",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "PID=A014",
+              "displayText": "新北市龍洞南口海水浴場"
+            },
+            "offsetStart": "-5px"
+          },
+          {
+            "type": "text",
+            "text": "新北市翡翠灣海水浴場",
+            "wrap": true,
+            "weight": "bold",
+            "size": "md",
+            "color": "#0000E3",
+            "decoration": "underline",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "PID=A015",
+              "displayText": "新北市翡翠灣海水浴場"
+            },
+            "offsetStart": "-5px"
+          },
+          {
+            "type": "text",
+            "text": "新北市龍門公園海水浴場",
+            "wrap": true,
+            "weight": "bold",
+            "size": "md",
+            "color": "#0000E3",
+            "decoration": "underline",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "PID=A016",
+              "displayText": "新北市龍門公園海水浴場"
+            },
+            "offsetStart": "-5px"
+          },
+          {
+            "type": "text",
+            "text": "新北市福隆海水浴場",
+            "wrap": true,
+            "weight": "bold",
+            "size": "md",
+            "color": "#0000E3",
+            "decoration": "underline",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "PID=A017",
+              "displayText": "新北市福隆海水浴場"
+            },
+            "offsetStart": "-5px"
+          },
+          {
+            "type": "text",
+            "text": "新北市龍洞灣公園海水浴場",
+            "wrap": true,
+            "weight": "bold",
+            "size": "md",
+            "color": "#0000E3",
+            "decoration": "underline",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "PID=A018",
+              "displayText": "新北市龍洞灣公園海水浴場"
+            },
+            "offsetStart": "-5px"
+          }
+        ],
+        "paddingAll": "16px"
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "南部 海水浴場",
+            "color": "#4493A3",
+            "size": "xxl",
+            "weight": "bold",
+            "position": "relative",
+            "align": "center",
+            "gravity": "center",
+            "wrap": true,
+            "adjustMode": "shrink-to-fit",
+            "margin": "sm"
+          },
+          {
+            "type": "text",
+            "text": "高雄市、臺南市、嘉義市、嘉義縣、屏東縣及澎湖縣。",
+            "wrap": true,
+            "weight": "bold",
+            "size": "lg",
+            "adjustMode": "shrink-to-fit",
+            "margin": "sm",
+            "offsetStart": "10px"
+          }
+        ]
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "高雄市西子灣海水浴場",
+            "wrap": true,
+            "weight": "bold",
+            "size": "md",
+            "color": "#0000E3",
+            "decoration": "underline",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "PID=A008",
+              "displayText": "高雄市西子灣海水浴場"
+            },
+            "offsetStart": "-5px"
+          },
+          {
+            "type": "text",
+            "text": "高雄市旗津海岸公園海水浴場",
+            "wrap": true,
+            "weight": "bold",
+            "size": "md",
+            "color": "#0000E3",
+            "decoration": "underline",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "PID=A009",
+              "displayText": "高雄市旗津海岸公園海水浴場"
+            },
+            "offsetStart": "-5px"
+          },
+          {
+            "type": "text",
+            "text": "臺南市馬沙溝海水浴場",
+            "wrap": true,
+            "weight": "bold",
+            "size": "md",
+            "color": "#0000E3",
+            "decoration": "underline",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "PID=A021",
+              "displayText": "臺南市馬沙溝海水浴場"
+            },
+            "offsetStart": "-5px"
+          },
+          {
+            "type": "text",
+            "text": "屏東縣墾丁海水浴場",
+            "wrap": true,
+            "weight": "bold",
+            "size": "md",
+            "color": "#0000E3",
+            "decoration": "underline",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "PID=A003",
+              "displayText": "屏東縣墾丁海水浴場"
+            },
+            "offsetStart": "-5px"
+          },
+          {
+            "type": "text",
+            "text": "屏東縣南灣海水浴場",
+            "wrap": true,
+            "weight": "bold",
+            "size": "md",
+            "color": "#0000E3",
+            "decoration": "underline",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "PID=A004",
+              "displayText": "屏東縣南灣海水浴場"
+            },
+            "offsetStart": "-5px"
+          },
+          {
+            "type": "text",
+            "text": "屏東縣小灣海水浴場",
+            "wrap": true,
+            "weight": "bold",
+            "size": "md",
+            "color": "#0000E3",
+            "decoration": "underline",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "PID=A005",
+              "displayText": "屏東縣小灣海水浴場"
+            },
+            "offsetStart": "-5px"
+          },
+          {
+            "type": "text",
+            "text": "澎湖縣吉貝海園海水浴場",
+            "wrap": true,
+            "weight": "bold",
+            "size": "md",
+            "color": "#0000E3",
+            "decoration": "underline",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "PID=A020",
+              "displayText": "澎湖縣吉貝海園海水浴場"
+            },
+            "offsetStart": "-5px"
+          }
+        ],
+        "paddingAll": "16px"
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "中、東部海水浴場",
+            "color": "#4493A3",
+            "size": "xxl",
+            "weight": "bold",
+            "position": "relative",
+            "align": "center",
+            "gravity": "center",
+            "adjustMode": "shrink-to-fit",
+            "wrap": true,
+            "margin": "sm"
+          },
+          {
+            "type": "text",
+            "text": "中部區域：臺中市、苗栗縣、彰化縣、南投縣及雲林縣。",
+            "wrap": true,
+            "weight": "bold",
+            "size": "lg",
+            "adjustMode": "shrink-to-fit",
+            "margin": "sm",
+            "offsetStart": "10px"
+          },
+          {
+            "type": "text",
+            "text": "東部區域：花蓮縣及臺東縣。",
+            "wrap": true,
+            "weight": "bold",
+            "size": "lg",
+            "adjustMode": "shrink-to-fit",
+            "margin": "sm",
+            "offsetStart": "10px"
+          }
+        ],
+        "paddingAll": "0px"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "臺中市大安海水浴場",
+            "wrap": true,
+            "weight": "bold",
+            "size": "md",
+            "color": "#0000E3",
+            "decoration": "underline",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "PID=A022",
+              "displayText": "臺中市大安海水浴場"
+            },
+            "offsetStart": "-5px"
+          },
+          {
+            "type": "text",
+            "text": "苗栗縣崎頂海水浴場",
+            "wrap": true,
+            "weight": "bold",
+            "size": "md",
+            "color": "#0000E3",
+            "decoration": "underline",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "PID=A006",
+              "displayText": "苗栗縣崎頂海水浴場"
+            },
+            "offsetStart": "-5px"
+          },
+          {
+            "type": "text",
+            "text": "苗栗縣通霄海水浴場",
+            "wrap": true,
+            "weight": "bold",
+            "size": "md",
+            "color": "#0000E3",
+            "decoration": "underline",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "PID=A007",
+              "displayText": "苗栗縣通霄海水浴場"
+            },
+            "offsetStart": "-5px"
+          },
+          {
+            "type": "text",
+            "text": "雲林縣三條崙海水浴場",
+            "wrap": true,
+            "weight": "bold",
+            "size": "md",
+            "color": "#0000E3",
+            "decoration": "underline",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "PID=A011",
+              "displayText": "雲林縣三條崙海水浴場"
+            },
+            "offsetStart": "-5px"
+          },
+          {
+            "type": "text",
+            "text": "花蓮縣磯崎海水浴場",
+            "wrap": true,
+            "weight": "bold",
+            "size": "md",
+            "color": "#0000E3",
+            "decoration": "underline",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "PID=A002",
+              "displayText": "花蓮縣磯崎海水浴場"
+            },
+            "offsetStart": "-5px"
+          },
+          {
+            "type": "text",
+            "text": "臺東縣杉原海水浴場",
+            "wrap": true,
+            "weight": "bold",
+            "size": "md",
+            "color": "#0000E3",
+            "decoration": "underline",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "PID=A019",
+              "displayText": "臺東縣杉原海水浴場"
+            },
+            "offsetStart": "-5px"
+          }
+        ],
+        "paddingAll": "16px"
+      }
+    }
+  ]
+}

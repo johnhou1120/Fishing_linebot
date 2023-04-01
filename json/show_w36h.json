@@ -1,0 +1,168 @@
+{
+  "type": "bubble",
+  "size": "kilo",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "天氣預報",
+        "weight": "bold",
+        "color": "#4493A3",
+        "size": "xxl"
+      },
+      {
+        "type": "text",
+        "text": "{高雄市} 未來 36 小時天氣",
+        "weight": "bold",
+        "size": "lg",
+        "margin": "xs",
+        "color": "#E88400"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "08-25 12:00 ~ 08-25 18:00",
+            "color": "#4D4D4D",
+            "size": "md",
+            "wrap": true,
+            "margin": "none"
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "md",
+        "color": "#007965"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "天氣狀況：",
+                "size": "md",
+                "color": "#4D4D4D",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "晴午後短暫雷陣雨",
+                "size": "md",
+                "color": "#4D4D4D",
+                "wrap": true,
+                "adjustMode": "shrink-to-fit"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "溫度狀況：",
+                "size": "md",
+                "color": "#4D4D4D",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "31 ~ 33 °C",
+                "size": "md",
+                "color": "#4D4D4D"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "降雨機率：",
+                "size": "md",
+                "color": "#4D4D4D",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "30%",
+                "size": "md",
+                "color": "#4D4D4D"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "舒適度：",
+                "size": "md",
+                "color": "#4D4D4D",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "悶熱",
+                "size": "md",
+                "color": "#4D4D4D"
+              }
+            ]
+          },
+          {
+            "type": "separator",
+            "margin": "md",
+            "color": "#007965"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "postback",
+          "label": "我要關注",
+          "data": "我要關注天氣預報",
+          "displayText": "為您關注天氣執行中，請稍候..."
+        },
+        "color": "#4493A3",
+        "style": "primary",
+        "adjustMode": "shrink-to-fit"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "postback",
+          "label": "我要刪除",
+          "data": "我要刪除天氣預報",
+          "displayText": "正在為您刪除關注的天氣，請稍候..."
+        },
+        "color": "#4D4D4D",
+        "style": "primary",
+        "adjustMode": "shrink-to-fit",
+        "margin": "md"
+      }
+    ],
+    "offsetTop": "-8px",
+    "paddingAll": "8px"
+  }
+}

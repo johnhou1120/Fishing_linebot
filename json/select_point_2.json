@@ -1,0 +1,62 @@
+{
+  "type": "bubble",
+  "size": "kilo",
+  "hero": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "{高雄市}地區選單",
+        "color": "#E88400",
+        "margin": "md",
+        "size": "xl",
+        "weight": "bold",
+        "wrap": true,
+        "adjustMode": "shrink-to-fit",
+        "offsetStart": "25px"
+      }
+    ],
+    "paddingAll": "0px"
+  },
+  "body": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#C36839",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "point_list[0]",
+              "text": "開始為您查詢即時天氣-+city+point_list[0]"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#C36839",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "point_list[0]",
+              "text": "開始為您查詢即時天氣-+city+point_list[0]"
+            }
+          }
+        ]
+      }
+    ],
+    "spacing": "sm",
+    "paddingAll": "8px"
+  }
+}

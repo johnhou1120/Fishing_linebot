@@ -1,0 +1,269 @@
+{
+  "type": "bubble",
+  "size": "kilo",
+  "hero": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "休閒漁港縣市選單",
+        "color": "#4493A3",
+        "margin": "md",
+        "size": "xl",
+        "weight": "bold",
+        "wrap": true,
+        "adjustMode": "shrink-to-fit",
+        "offsetStart": "25px"
+      }
+    ],
+    "paddingAll": "0px"
+  },
+  "body": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "city[0]",
+              "text": "請問要查詢city[0]的那個休閒漁港"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "city[0]",
+              "text": "請問要查詢city[0]的那個休閒漁港"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "city[0]",
+              "text": "請問要查詢city[0]的那個休閒漁港"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "city[0]",
+              "text": "請問要查詢city[0]的那個休閒漁港"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "city[0]",
+              "text": "請問要查詢city[0]的那個休閒漁港"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "city[0]",
+              "text": "請問要查詢city[0]的那個休閒漁港"
+            }
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "city[0]",
+              "text": "請問要查詢city[0]的那個休閒漁港"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "city[0]",
+              "text": "請問要查詢city[0]的那個休閒漁港"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "city[0]",
+              "text": "請問要查詢city[0]的那個休閒漁港"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "city[0]",
+              "text": "請問要查詢city[0]的那個休閒漁港"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "city[0]",
+              "text": "請問要查詢city[0]的那個休閒漁港"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "city[0]",
+              "text": "請問要查詢city[0]的那個休閒漁港"
+            }
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "city[0]",
+              "text": "請問要查詢city[0]的那個休閒漁港"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "city[0]",
+              "text": "請問要查詢city[0]的那個休閒漁港"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "city[0]",
+              "text": "請問要查詢city[0]的那個休閒漁港"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "city[0]",
+              "text": "請問要查詢city[0]的那個休閒漁港"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#7EB5A6",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "city[0]",
+              "text": "請問要查詢city[0]的那個休閒漁港"
+            }
+          }
+        ]
+      }
+    ],
+    "spacing": "sm",
+    "paddingAll": "8px"
+  }
+}

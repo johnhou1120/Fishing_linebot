@@ -1,0 +1,243 @@
+{
+  "type": "bubble",
+  "size": "mega",
+  "hero": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "{高雄市}地區選單",
+        "color": "#E88400",
+        "margin": "md",
+        "size": "xl",
+        "weight": "bold",
+        "wrap": true,
+        "adjustMode": "shrink-to-fit",
+        "offsetStart": "25px"
+      }
+    ],
+    "paddingAll": "0px"
+  },
+  "body": {
+    "type": "box",
+    "layout": "horizontal",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#C36839",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "point_list[0]",
+              "text": "開始為您查詢即時天氣-+city+point_list[0]"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#C36839",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "point_list[1]",
+              "text": "開始為您查詢即時天氣-+city+point_list[1]"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#C36839",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "point_list[2]",
+              "text": "開始為您查詢即時天氣-+city+point_list[2]"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#C36839",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "point_list[3]",
+              "text": "開始為您查詢即時天氣-+city+point_list[3]"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#C36839",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "point_list[4]",
+              "text": "開始為您查詢即時天氣-+city+point_list[4]"
+            }
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#C36839",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "point_list[0]",
+              "text": "開始為您查詢即時天氣-+city+point_list[0]"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#C36839",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "point_list[1]",
+              "text": "開始為您查詢即時天氣-+city+point_list[1]"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#C36839",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "point_list[2]",
+              "text": "開始為您查詢即時天氣-+city+point_list[2]"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#C36839",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "point_list[3]",
+              "text": "開始為您查詢即時天氣-+city+point_list[3]"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#C36839",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "point_list[4]",
+              "text": "開始為您查詢即時天氣-+city+point_list[4]"
+            }
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#C36839",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "point_list[0]",
+              "text": "開始為您查詢即時天氣-+city+point_list[0]"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#C36839",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "point_list[1]",
+              "text": "開始為您查詢即時天氣-+city+point_list[1]"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#C36839",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "point_list[2]",
+              "text": "開始為您查詢即時天氣-+city+point_list[2]"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#C36839",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "point_list[3]",
+              "text": "開始為您查詢即時天氣-+city+point_list[3]"
+            }
+          },
+          {
+            "type": "button",
+            "adjustMode": "shrink-to-fit",
+            "color": "#C36839",
+            "style": "primary",
+            "margin": "sm",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "point_list[4]",
+              "text": "開始為您查詢即時天氣-+city+point_list[4]"
+            }
+          }
+        ]
+      }
+    ],
+    "paddingAll": "8px"
+  }
+}

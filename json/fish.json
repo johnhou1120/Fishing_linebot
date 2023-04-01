@@ -1,0 +1,135 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/7VaGIq9.jpg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "action": {
+          "type": "message",
+          "label": "魚種搜尋",
+          "text": "魚種搜尋"
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "魚種搜尋",
+                "size": "xxl",
+                "color": "#4D4D4D",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "請在下方輸入關鍵字\n注意！！請在\"@\"後輸入關鍵字\n例如：@鯛、@鮋、@石斑",
+                "color": "#4D4D4D",
+                "contents": [],
+                "wrap": true,
+                "adjustMode": "shrink-to-fit"
+              },
+              {
+                "type": "text",
+                "text": "開始在這片海洋搜尋吧 !",
+                "color": "#4D4D4DFF",
+                "contents": [],
+                "margin": "xs"
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "下一步",
+              "uri": "line://oaMessage/"
+            }
+          }
+        ],
+        "spacing": "xs",
+        "margin": "xs",
+        "paddingAll": "0px"
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/MzxsrlY.jpg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "action": {
+          "type": "message",
+          "label": "台灣常見魚類",
+          "text": "台灣常見魚類"
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "台灣常見魚類",
+                "size": "xxl",
+                "color": "#4D4D4DFF",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "透過魚類屬性 (如：有毒魚類等..)",
+                "color": "#4D4D4D",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "開始找尋你釣到什麼魚~",
+                "color": "#4D4D4D",
+                "contents": []
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "下一步",
+              "text": "台灣常見魚類"
+            }
+          }
+        ],
+        "paddingAll": "0px"
+      }
+    }
+  ]
+}
